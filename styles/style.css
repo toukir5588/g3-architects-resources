@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -8,3 +12,62 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+/** shared css */
+
+/** start header style */
+
+/** nav start */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.navbar h3{
+font-size: 3rem; 
+font-weight: bold;
+}
+.navbar .list_item  li{
+list-style: none;
+margin-left: 40px;
+}
+.navbar .list_item  li a{
+text-decoration: none;
+color: #424242;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.banner_content{
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.banner_content h2{
+ font-size: 4rem;
+ font-weight: bold;
+
+}
+.banner_content p{
+ font-size: 1rem;
+ font-weight: 400;
+ margin: 30px 0;
+
+}
+.banner .banner_img{
+  width: 100%;
+
+}
+
+
+
+/** start main section style */
+
+
+
+

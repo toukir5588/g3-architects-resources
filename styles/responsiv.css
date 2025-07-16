@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width:576px) {
+ .navbar, .list_item{
+      flex-direction: column;
+ } 
+ 
+ .list_item li{
+    margin-top: 15px;
+ }
+
+
+ .list_item{
+    text-align: center;
+    justify-content: center;
+ }
+    
+}
