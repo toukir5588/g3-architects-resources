@@ -70,6 +70,8 @@ font-weight: 500;
 
 /** start main section style */
 
+/* *Quick_list_Features section  */
+
 .Quick_list_Features{
   justify-content: center;
   align-items: center;
@@ -109,3 +111,95 @@ font-weight: 500;
    margin-bottom: 20px;
 }
 
+
+
+/** start Features_will_love_section style */
+
+.Features_will_love_section{
+  gap: 54px;
+}
+
+.Features_will_love_section .content_parent{
+  max-width: 590px;
+  
+  margin-top: 30px;
+  
+}
+
+.Features_will_love_section .content_parent h2{
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  border-left: 5px solid #FF900E;
+  margin-top: 30px;
+  
+  
+}
+
+.Features_will_love_section .content_parent p{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+   
+}
+
+.Features_will_love_section .content_child{
+  padding: 30px ;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 25px;
+  border-radius: 9px;
+   
+}
+
+.Features_will_love_section .content_child h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.Features_will_love_section .content_child p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+
+
+.Features_will_love_section .img{
+ margin-left: 90px;
+}
+
+.Features_will_love_section .img img{
+
+  width: 100%;
+  /* margin-left: 90px; */
+}
+
+
+.Features_will_love_section .img .btn_primary{
+  max-width: 340px;
+  max-height: 200px;
+  padding: 50px 40px;
+  text-align: center;
+  position: relative;
+  top: -120px;
+
+  margin-top: -10px;
+  margin-left: -90px;
+  /* z-index: 10; */
+}
+
+
+.Features_will_love_section  #Year{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.Features_will_love_section .img #Experience{
+  font-size: 1.2rem;
+  font-weight: 500;
+}

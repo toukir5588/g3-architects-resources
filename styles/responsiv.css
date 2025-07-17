@@ -1,7 +1,10 @@
 
 
 @media screen and (max-width:576px) {
- .navbar, .list_item, .Quick_list_Features{
+ .navbar, 
+ .list_item, 
+ .Quick_list_Features,
+ .Features_will_love_section{
       flex-direction: column;
  } 
  
@@ -55,6 +58,22 @@ padding: 0px;
 }
 
 
+
+.Features_will_love_section{
+   margin: 10px 20px;
+
+}
+
+.Features_will_love_section .img{
+margin-left: 0px;
+}
+.Features_will_love_section .img .btn_primary{
+  margin-top: 0;
+  margin-right: 0;
+  margin: 0 auto;
+}
+
+
     
 }
 
@@ -67,7 +86,8 @@ padding: 0px;
 
     .navbar, 
     .list_item,
-    .Quick_list_Features{
+    .Quick_list_Features,
+    .Features_will_love_section{
       flex-direction: column;
  } 
 
@@ -100,4 +120,30 @@ padding: 0px;
    max-width: 600px;
    padding-left: 0px;
    text-align: center;
+}
+
+.Features_will_love_section{
+   margin: 10px 20px;
+
+}
+
+.Features_will_love_section .content_parent{
+   margin: 10px auto;
+
+}
+.Features_will_love_section .img img{
+   /* margin: 10px auto; */
+   padding: 0;
+}
+
+.Features_will_love_section .img{
+margin-left: 0px;
+}
+.Features_will_love_section .img .btn_primary{
+  margin-top: 0;
+  margin-right: 0 ;
+  margin: 0 auto;
+}
+
+
 }
