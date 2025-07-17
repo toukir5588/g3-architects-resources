@@ -14,7 +14,6 @@
 }
 
 
-
 /** shared css */
 
 /** start header style */
@@ -33,6 +32,9 @@ font-weight: bold;
 .navbar .list_item  li{
 list-style: none;
 margin-left: 40px;
+padding: 10px 15px;
+transition: transform .5s ease;
+
 }
 .navbar .list_item  li a{
 text-decoration: none;
@@ -40,6 +42,14 @@ color: #424242;
 font-size: 1.3rem;
 font-weight: 500;
 }
+
+ .list_item li:hover{
+   background: #FF900E;
+   color: #ffff;
+   border-radius: 8px;
+   transform: scale(1.1);
+ }
+
 
 .banner_content{
     max-width: 860px;
